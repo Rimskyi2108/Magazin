@@ -1,6 +1,6 @@
 # 🛋️ Интернет-магазин мебели «Magazin»
 
-**Демо:** [Смотреть демо](https://rimskyi2108.github.io/Magazin/)
+**Демо:** [Смотреть](https://rimskyi2108.github.io/Magazin/)
 
 ---
 
