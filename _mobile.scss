@@ -84,6 +84,7 @@
 
   .product-content {
     row-gap: 32px;
+    justify-content: center;
   }
 
   .product {
@@ -201,6 +202,7 @@
   .catalog-box {
     grid-template-columns: repeat(4, 1fr);
     row-gap: 32px;
+     justify-items: center
   }
 
   .product {
@@ -230,10 +232,6 @@
     &__content {
       grid-column: span 4;
       max-width: 343px;
-    }
-
-    &__name-box {
-      display: none;
     }
 
     &__item {

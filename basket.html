@@ -10,7 +10,7 @@
         rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body> 
     <div class="top-basket center">
         <header class="header">
             <a href="index.html"><img class="header__logo" src="images/interier-header.svg" alt="Логотип"></a>
@@ -170,5 +170,17 @@
             </section>
         </div>
     </footer>
+    <script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const orderButton = document.querySelector('.form__button');
+
+    if (orderButton) {
+      orderButton.addEventListener('click', function (e) {
+        e.preventDefault();
+        alert('Спасибо за заказ!');
+      });
+    }
+  });
+</script>
 </body>
 </html>

@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="top-catalog center">
+    <div class="top-catalog center"> 
         <header class="header">
             <a href="index.html"><img class="header__logo" src="images/interier-header.svg" alt="Логотип"></a>
             <input placeholder="Поиск" class="header__input" type="text">
@@ -400,5 +400,25 @@
             </section>
         </div>
     </footer>
+    <script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const button = document.querySelector('.filter-button');
+    const form = document.querySelector('.filtering-form');
+
+    if (button && form) {
+      form.style.display = 'flex';
+
+      button.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        if (form.style.display === 'none') {
+          form.style.display = 'flex';
+        } else {
+          form.style.display = 'none';
+        }
+      });
+    }
+  });
+</script>
 </body>
 </html>
